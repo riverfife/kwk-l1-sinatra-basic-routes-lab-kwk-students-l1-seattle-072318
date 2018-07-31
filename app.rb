@@ -5,7 +5,7 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   
-  get '/name' 
+  get '/name' do
     "My name is River."
-  
+  end
 end
